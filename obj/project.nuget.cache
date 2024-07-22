@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UambXyjZTqK5Sew4a8i9jpvOluTY4IJ8EICxWOYk0wkrzyt3eMlekz03NfRiy95ZNsJD2bhZg5FRmLArrUFVQQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\slick\\GameStuff\\Projects\\StarWarsConquest\\StarWarsConquest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\slick\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\slick\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+  ],
+  "logs": []
+}
