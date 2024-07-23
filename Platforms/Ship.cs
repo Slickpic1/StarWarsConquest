@@ -8,10 +8,11 @@ public class Ship: WeaponsPlatform
     private string shipName;
     private string className;
     private float evasion;
-    public Ship(int cost, float maxHealth, float maxShields, List<Weapon> weapons, float evasion, string className, int SCALE): base(cost, maxHealth, maxShields, weapons, SCALE)
+    public Ship(int cost, float maxHealth, float maxShields, List<Weapon> weapons, float evasion, string className, string shipName,float SCALE): base(cost, maxHealth, maxShields, weapons, SCALE)
     {
         this.evasion = evasion;
         this.className = className;
+        this.shipName = shipName;
     }
 
     // public override float GetStrength()

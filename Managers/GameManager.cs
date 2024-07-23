@@ -22,9 +22,25 @@ public class GameManager
 
     public void Load(ContentManager contentManager)
     {
-        //for the moment, we load an initial list of opposing ships
-        List<Ship> playerFleet = new();
-        List<Ship> enemyFleet = new();
+        //for the moment, we load an initial list of opposing ships (THIS IS TEMPORARY)
+        List<Ship> playerFleet = new()
+        {
+            new Ship(1,1,1,new List<Weapon>(),2,"fun","GE_VC_Heavy_Cruiser",0.05f),
+            new Ship(1,1,1,new List<Weapon>(),2,"fun","GE_VC_Heavy_Cruiser",0.05f),
+            new Ship(1,1,1,new List<Weapon>(),2,"fun","GE_VC_Heavy_Cruiser",0.05f),
+            new Ship(1,1,1,new List<Weapon>(),2,"fun","GE_VC_Heavy_Cruiser",0.05f),
+            new Ship(1,1,1,new List<Weapon>(),2,"fun","GE_VC_Heavy_Cruiser",0.05f),
+            new Ship(1,1,1,new List<Weapon>(),2,"fun","GE_VC_Heavy_Cruiser",0.05f)
+        };
+        List<Ship> enemyFleet = new()
+        {
+            new Ship(1,1,1,new List<Weapon>(),2,"fun","GE_RC_Corvette",0.05f),
+            new Ship(1,1,1,new List<Weapon>(),2,"fun","GE_RC_Corvette",0.05f),
+            new Ship(1,1,1,new List<Weapon>(),2,"fun","GE_RC_Corvette",0.05f),
+            new Ship(1,1,1,new List<Weapon>(),2,"fun","GE_RC_Corvette",0.05f),
+            new Ship(1,1,1,new List<Weapon>(),2,"fun","GE_RC_Corvette",0.05f),
+            new Ship(1,1,1,new List<Weapon>(),2,"fun","GE_RC_Corvette",0.05f)
+        };
         List<Station> stations = new();
 
         //For now we load a battlescene to just test out if it works

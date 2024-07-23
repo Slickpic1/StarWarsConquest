@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\slick\\GameStuff\\Projects\\StarWarsConquest\\StarWarsConquest.csproj": {}
+    "c:\\Users\\slick\\GameStuff\\Projects\\StarWarsConquest\\StarWarsConquest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\slick\\GameStuff\\Projects\\StarWarsConquest\\StarWarsConquest.csproj": {
+    "c:\\Users\\slick\\GameStuff\\Projects\\StarWarsConquest\\StarWarsConquest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\slick\\GameStuff\\Projects\\StarWarsConquest\\StarWarsConquest.csproj",
+        "projectUniqueName": "c:\\Users\\slick\\GameStuff\\Projects\\StarWarsConquest\\StarWarsConquest.csproj",
         "projectName": "StarWarsConquest",
-        "projectPath": "C:\\Users\\slick\\GameStuff\\Projects\\StarWarsConquest\\StarWarsConquest.csproj",
+        "projectPath": "c:\\Users\\slick\\GameStuff\\Projects\\StarWarsConquest\\StarWarsConquest.csproj",
         "packagesPath": "C:\\Users\\slick\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\slick\\GameStuff\\Projects\\StarWarsConquest\\obj\\",
+        "outputPath": "c:\\Users\\slick\\GameStuff\\Projects\\StarWarsConquest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

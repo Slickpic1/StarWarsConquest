@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Microsoft.Xna.Framework.Input;
 
 namespace StarWarsConquest;
 
@@ -28,7 +29,7 @@ public class BattleScene : IScene
         new Vector2(760,531),
         new Vector2(911,465)
     };
-    private readonly List<Vector2> stationPositions = new();
+    private readonly List<Vector2> stationPositions = new(); //need to add here
     private readonly List<Vector2> turretPositions = new();
     public List<Ship> playerFleet;
     public List<Ship> enemyFleet;
@@ -53,6 +54,8 @@ public class BattleScene : IScene
         {
             ship.texture = TextureManager.GetTexture(ship.GetShipName(),contentManager);
             ship.position = playerFleetPositions[idx];
+            ship.effects = SpriteEffects.FlipHorizontally;
+            ship.rotation = -1f;
             idx++;
         }
         idx = 0;
@@ -75,7 +78,11 @@ public class BattleScene : IScene
 
     public void Update(GameTime gameTime)
     {
-        //Maybe remove ship in here?
+        //Combat logic goes here
+        if (Keyboard.GetState().IsKeyDown(Keys.Up) == true)
+        {
+            playerFleet[1].rotation +=0.01f;
+        }
     }
 
     public void Draw(SpriteBatch spriteBatch)

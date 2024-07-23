@@ -9,7 +9,7 @@ public class Platform : Sprite
     protected float health;
     protected float maxShields;
     protected float shields;
-    public Platform(int cost, float maxHealth, float maxShields, int SCALE = 1) : base(SCALE)
+    public Platform(int cost, float maxHealth, float maxShields, float SCALE = 1) : base(SCALE)
     {
         this.cost = cost;
         this.maxHealth = maxHealth;

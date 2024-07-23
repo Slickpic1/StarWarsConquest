@@ -6,11 +6,11 @@ public class WeaponsPlatform: Platform
 {
     protected List<Weapon> weapons = new List<Weapon>();
     // protected float RechargeRate;
-    public WeaponsPlatform(int cost, float maxHealth, float maxShields, List<Weapon> weapons, int SCALE = 1): base(cost, maxHealth, maxShields, SCALE)
+    public WeaponsPlatform(int cost, float maxHealth, float maxShields, List<Weapon> weapons, float SCALE = 1): base(cost, maxHealth, maxShields, SCALE)
     {
         this.weapons = weapons;
     }
-    public WeaponsPlatform(int cost, float maxHealth, float maxShields, Weapon weapon, int SCALE = 1): base(cost, maxHealth, maxShields, SCALE)
+    public WeaponsPlatform(int cost, float maxHealth, float maxShields, Weapon weapon, float SCALE = 1): base(cost, maxHealth, maxShields, SCALE)
     {
         weapons = new List<Weapon>{weapon};
     }

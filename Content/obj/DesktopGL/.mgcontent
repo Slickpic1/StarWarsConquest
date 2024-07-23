@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/slick/GameStuff/Projects/StarWarsConquest/Content/../../../Assets/StarWarsConquest/Galactic_Empire_-_Vindicator-Class_Heavy_Cruiser.png</File>
+    <File>C:/Users/slick/GameStuff/Projects/StarWarsConquest/Content/../../../Assets/StarWarsConquest/GalacticEmpireRaiderClassCorvette.png</File>
+    <File>C:/Users/slick/GameStuff/Projects/StarWarsConquest/Content/../../VSCodeMonoGameTutorial/Assets/gublin.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>Galactic_Empire_-_Vindicator-Class_Heavy_Cruiser.png</File>
+    <File>GalacticEmpireRaiderClassCorvette.png</File>
+    <File>gublin.png</File>
+  </DestFiles>
+</SourceFileCollection>

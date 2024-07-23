@@ -54,7 +54,7 @@ public class Game1 : Game
 
     protected override void Draw(GameTime gameTime)
     {
-        GraphicsDevice.Clear(Color.Black);
+        GraphicsDevice.Clear(Color.CornflowerBlue);
 
         //This will draw all our content from the current scene that we have loaded
         _spriteBatch.Begin(samplerState:SamplerState.PointClamp);

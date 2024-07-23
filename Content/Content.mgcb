@@ -13,3 +13,39 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin ../../../Assets/StarWarsConquest/Galactic_Empire_-_Vindicator-Class_Heavy_Cruiser.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/StarWarsConquest/Galactic_Empire_-_Vindicator-Class_Heavy_Cruiser.png;Galactic_Empire_-_Vindicator-Class_Heavy_Cruiser.png
+
+#begin ../../../Assets/StarWarsConquest/GalacticEmpireRaiderClassCorvette.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../../Assets/StarWarsConquest/GalacticEmpireRaiderClassCorvette.png;GalacticEmpireRaiderClassCorvette.png
+
+#begin ../../VSCodeMonoGameTutorial/Assets/gublin.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:../../VSCodeMonoGameTutorial/Assets/gublin.png;gublin.png
+
